@@ -1,0 +1,43 @@
+:root {
+    --color-background: #F3F3F3;
+    --color-background-nav: #09B6D6;
+    --color-background-home: #09B6D6;
+    --color-text-light: #EDEDED;
+    --color-text-title: #FF5555;
+    --color-text-dark: #09B6D6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    background-color: var(--color-background);
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s opacity;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    width: 90%;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
